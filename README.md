@@ -15,37 +15,37 @@ Congratulations, you made it to the next step at Zelt's recruiting process! At t
 
 ## Backend description
 ### Entities
-*Hero*
+**Hero**
 * id - number - id of record
 * name - string - name of the superhero
 * shortDescription - string - a 1-2 sentences short description of the superhero
 * description - string - a longer and more detailed description of the superhero
 * power - string - a list of powers of the superhero separated by commas
 
-### endpoints
-*POST /login* 
+### Endpoints
+**POST /login** 
 * sets the JWT token in a cookie (token='<JWT_token>') and returns "Success" if the login is successfull. Throws a 401 error otherwise.
 * body data - { name: string; password: string; }
 * you can use the following credentials to execute a successfull authentication: { name: "Test", password: "1234" }
 
-*POST /logout* 
+**POST /logout**
 * removes the JWT token saved in the cookie and returns "Success" if the logout is successfull.
 
 
-*GET /heroes*
+**GET /heroes**
 * returns an array of superheroes
 * can be used only if authenticated
 
-*GET /heroes/:id*
+**GET /heroes/:id**
 * returns the details of a superhero
 * can be used only if authenticated
 
-*POST /heroes*
+**POST /heroes**
 * creates a new superheroes
 * body data - { name: string; shortDescription: string; description: string; power: string; }
 * can be used only if authenticated
 
-*DELETE /heroes/:id*
+**DELETE /heroes/:id**
 * deletes a superhero by id
 * can be used only if authenticated
 
@@ -65,3 +65,9 @@ Congratulations, you made it to the next step at Zelt's recruiting process! At t
 * We at Zelt are using formik to handle forms, if you wish you could use the same (this is not a requirement).
 
 ## Backend set up
+Inside /backend folder:
+* run **npm install**
+* run **npm run start:dev**
+* the api is now accessible on the **port 8000**
+
+ * the api accepts request only from **http://localhost:3000**
