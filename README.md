@@ -1,1 +1,0 @@
-# Zelt-Frontend-Test
