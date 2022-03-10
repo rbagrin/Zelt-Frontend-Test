@@ -33,4 +33,9 @@ export class AppController {
     response.clearCookie('token');
     return 'Success';
   }
+
+  @Get('/hello-world')
+  helloWorld(): string {
+    return 'Hello World!';
+  }
 }
