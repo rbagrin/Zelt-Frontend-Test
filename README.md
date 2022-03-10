@@ -62,7 +62,9 @@ Congratulations, you made it to the next step at Zelt's recruiting process! At t
 
 ## Tips and advices
 * Feel free to design the pages you are creating as you wish. We will also appreciate the creativity, not only the code. You can use any MaterialUI components (Lists, Cards, Modals, Buttons, etc.).
-* We at Zelt are using formik to handle forms, if you wish you could use the same (this is not a requirement).
+* We at Zelt are using formik to handle forms, if you wish you could use the same (not a requirement).
+* Feel free to add improvements/features (not a requirement).
+* Write clean code and try not having all the code of a page in the same file.
 
 ## Backend set up
 Inside /backend folder:
