@@ -1,10 +1,10 @@
 # Zelt-Frontend-Test
 ## Instructions
-Congratulations, you made it to the next step at Zelt's recruiting process! At this stage, we need to check your techinical skills by asking you to do what you like the most: writing code. In this technical challenge we would like to see your best work. The most important aspects that we're going to judge is your capacity to produce high quality code that is well organised, readable, testable and that follows the best practices in the software engineering industry. We'd like you to create a private repository (you can fork this repo or you can clone it and then use the code for your repo) and invite us to have access to it. We expect you to collaborate with us the same way that you'd do in a daily basis when working at Zelt, meaning:
+Congratulations, you made it to the next step at Zelt's recruiting process! At this stage, we need to check your techinical skills by asking you to do what you like the most: writing code. In this technical challenge we would like to see your best work. The most important aspects that we're going to judge is your capacity to produce high quality code that is well organised, readable, testable and that follows the best practices in the software engineering industry. We'd like you to create a private repository (you can fork this repo or you can clone it and then use the code for your repo) and invite us (github usernames: **rbagrin**, **elgutierrez**) to have access to it. We expect you to collaborate with us the same way that you'd do in a daily basis when working at Zelt, meaning:
 
 * Create (one or multiple, at your discretion) pull requests with your changes.
 * Write clear commit messages and keep your commit history clean.
-* We would like to see some tests (Ideally using Jest).
+* We would like to see some tests (ideally using Jest).
 * It would be nice to give some attention to the UI/UX aspect.
 
 ## Brief
