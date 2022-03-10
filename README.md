@@ -67,9 +67,10 @@ Congratulations, you made it to the next step at Zelt's recruiting process! At t
 * Write clean code and try not having all the code of a page in the same file.
 
 ## Backend set up
-Inside /backend folder:
+Inside the **/backend** folder:
 * run **npm install**
 * run **npm run start:dev**
 * the api is now accessible on the **port 8000**
 
- * the api accepts request only from **http://localhost:3000**
+
+###### * the api accepts request only from **http://localhost:3000**
