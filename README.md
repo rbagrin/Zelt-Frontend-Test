@@ -1,10 +1,10 @@
-# Zelt-Frontend-Test
+# Zelt Frontend Test
 ## Instructions
-Congratulations, you made it to the next step at Zelt's recruiting process! At this stage, we need to check your techinical skills by asking you to do what you like the most: writing code. In this technical challenge we would like to see your best work. The most important aspects that we're going to judge is your capacity to produce high quality code that is well organised, readable, testable and that follows the best practices in the software engineering industry. We'd like you to create a private repository (you can fork this repo or you can clone it and then use the code for your repo) and invite us to have access to it. We expect you to collaborate with us the same way that you'd do in a daily basis when working at Zelt, meaning:
+Congratulations, you made it to the next step at Zelt's recruiting process! At this stage, we need to check your techinical skills by asking you to do what you like the most: writing code. In this technical challenge we would like to see your best work. The most important aspects that we're going to judge is your capacity to produce high quality code that is well organised, readable, testable and that follows the best practices in the software engineering industry. We'd like you to create a private repository (you can fork this repo or you can clone it and then use the code for your repo) and invite us (github usernames: **rbagrin**, **elgutierrez**) to have access to it. We expect you to collaborate with us the same way that you'd do in a daily basis when working at Zelt, meaning:
 
 * Create (one or multiple, at your discretion) pull requests with your changes.
 * Write clear commit messages and keep your commit history clean.
-* We would like to see some tests (Ideally using Jest).
+* We would like to see some tests (ideally using Jest).
 * It would be nice to give some attention to the UI/UX aspect.
 
 ## Brief
@@ -62,12 +62,17 @@ Congratulations, you made it to the next step at Zelt's recruiting process! At t
 
 ## Tips and advices
 * Feel free to design the pages you are creating as you wish. We will also appreciate the creativity, not only the code. You can use any MaterialUI components (Lists, Cards, Modals, Buttons, etc.).
-* We at Zelt are using formik to handle forms, if you wish you could use the same (this is not a requirement).
+* We at Zelt are using formik to handle forms, if you wish you could use the same (not a requirement).
+* Feel free to add improvements/features (not a requirement).
+* Write clean code and try not having all the code of a page in the same file.
 
 ## Backend set up
-Inside /backend folder:
+Inside the **/backend** folder:
 * run **npm install**
 * run **npm run start:dev**
 * the api is now accessible on the **port 8000**
 
- * the api accepts request only from **http://localhost:3000**
+
+###### * the api accepts request only from **http://localhost:3000**
+
+## Good luck!
