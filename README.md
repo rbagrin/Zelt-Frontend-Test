@@ -67,12 +67,20 @@ Congratulations, you made it to the next step at Zelt's recruiting process! At t
 * Write clean code and try not having all the code of a page in the same file.
 
 ## Backend set up
-Inside the **/backend** folder:
+From one terminal go inside the **/backend** folder and:
 * run **npm install**
 * run **npm run start:dev**
 * the api is now accessible on the **port 8000**
 
 
 ###### * the api accepts request only from **http://localhost:3000**
+
+
+## Frontend set up
+From another different terminal go inside the **/frontend** folder and:
+* run **npm install**
+* run **npm start**
+* the frontend app should now be accessible at **http://localhost:3000** and you should see a "Hello World!" blue text in the middle of the page.
+    (if the text is red and it says "Something went wrong" probably the backend server is not started yet or there is something wrong with it.)
 
 ## Good luck!
